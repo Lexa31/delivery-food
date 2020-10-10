@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)https://animate.style/ -->
+<html lang="ru" class="translated-ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Primary Meta Tags -->
+    <title>Animate.css |  Кроссбраузерная библиотека CSS-анимации.</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Animate.css | A cross-browser library of CSS animations.">
+    <meta name="description" content="Animate.css is a library of ready-to-use, cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and attention-guiding hints.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://animate.style">
+    <meta property="og:title" content="Animate.css | A cross-browser library of CSS animations.">
+    <meta property="og:description" content="Animate.css is a library of ready-to-use, cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and attention-guiding hints.">
+    <meta property="og:image" content="https://animate.style/img/animatecss-opengraph.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://animate.style">
+    <meta property="twitter:title" content="Animate.css | A cross-browser library of CSS animations.">
+    <meta property="twitter:description" content="Animate.css is a library of ready-to-use, cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and attention-guiding hints.">
+    <meta property="twitter:image" content="https://animate.style/img/animatecss-opengraph.jpg">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://animate.style/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://animate.style/img/favicon.ico" type="image/x-icon">
+
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+    <link href="./animate_files/css2" rel="stylesheet">
+    <link href="./animate_files/prism-tomorrow.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./animate_files/animate.min.css">
+    <link rel="stylesheet" href="./animate_files/style.css">
+  <link type="text/css" rel="stylesheet" charset="UTF-8" href="./animate_files/translateelement.css"></head>
+  <body>
+    <article class="intro">
+      <section class="callout">
+        <h1 class="callout-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Animate.css</font></font></h1>
+        <h2 class="callout-subtitle animate__animated animate__zoomInDown"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CSS-анимация с добавлением воды</font></font></h2>
+        <p class="callout-showList animate__animated animate__zoomInUp">
+          <button class="button button-animations"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Посмотреть анимацию</font></font></button>
+        </p>
+      </section>
+
+      <section class="animation-list animate__animated animate__fadeInRight">
+        <button class="callout-hideList button"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Закрыть список</font></font></button>
+        
+      <section class="attention_seekers" id="attention_seekers">
+        <h3 class="animation-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ищущие внимания</font></font></h3>
+        <ul class="animation-group">
+    <li class="animation-item" data-animation="bounce">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">подпрыгивать</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="flash">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">вспышка</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="pulse">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">пульс</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="rubberBand">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">резинка</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="shakeX">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">shakeX</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="shakeY">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">дрожь</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="headShake">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">голова</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="swing">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">качели</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="tada">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">тада</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="wobble">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">колебаться</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="jello">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">желе</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="heartBeat">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">сердцебиение</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li></ul>
+      </section>
+    
+
+      <section class="back_entrances" id="back_entrances">
+        <h3 class="animation-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Черные входы</font></font></h3>
+        <ul class="animation-group">
+    <li class="animation-item" data-animation="backInDown">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">backInDown</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="backInLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">backInLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="backInRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">backInRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="backInUp">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">backInUp</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li></ul>
+      </section>
+    
+
+      <section class="back_exits" id="back_exits">
+        <h3 class="animation-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Обратные выходы</font></font></h3>
+        <ul class="animation-group">
+    <li class="animation-item" data-animation="backOutDown">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">назадOutDown</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="backOutLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">backOutLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="backOutRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">backOutRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="backOutUp">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">backOutUp</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li></ul>
+      </section>
+    
+
+      <section class="bouncing_entrances" id="bouncing_entrances">
+        <h3 class="animation-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прыгающие входы</font></font></h3>
+        <ul class="animation-group">
+    <li class="animation-item" data-animation="bounceIn">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bounceIn</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="bounceInDown">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bounceInDown</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="bounceInLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bounceInLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="bounceInRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bounceInRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="bounceInUp">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bounceInUp</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li></ul>
+      </section>
+    
+
+      <section class="bouncing_exits" id="bouncing_exits">
+        <h3 class="animation-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Прыгающие выходы</font></font></h3>
+        <ul class="animation-group">
+    <li class="animation-item" data-animation="bounceOut">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bounceOut</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="bounceOutDown">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bounceOutDown</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="bounceOutLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bounceOutLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="bounceOutRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bounceOutRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="bounceOutUp">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bounceOutUp</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li></ul>
+      </section>
+    
+
+      <section class="fading_entrances" id="fading_entrances">
+        <h3 class="animation-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Затухающие входы</font></font></h3>
+        <ul class="animation-group">
+    <li class="animation-item" data-animation="fadeIn">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">исчезать</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeInDown">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeInDown</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeInDownBig">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeInDownBig</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeInLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeInLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeInLeftBig">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeInLeftBig</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeInRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeInRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeInRightBig">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeInRightBig</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeInUp">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeInUp</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeInUpBig">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeInUpBig</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeInTopLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeInTopLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeInTopRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeInTopRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeInBottomLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeInBottomLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeInBottomRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeInBottomRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li></ul>
+      </section>
+    
+
+      <section class="fading_exits" id="fading_exits">
+        <h3 class="animation-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Затухающие выходы</font></font></h3>
+        <ul class="animation-group">
+    <li class="animation-item" data-animation="fadeOut">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">исчезать</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeOutDown">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeOutDown</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeOutDownBig">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeOutDownBig</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeOutLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeOutLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeOutLeftBig">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeOutLeftBig</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeOutRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeOutRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeOutRightBig">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeOutRightBig</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeOutUp">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeOutUp</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeOutUpBig">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeOutUpBig</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeOutTopLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeOutTopLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeOutTopRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeOutTopRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeOutBottomRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeOutBottomRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="fadeOutBottomLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">fadeOutBottomLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li></ul>
+      </section>
+    
+
+      <section class="flippers" id="flippers">
+        <h3 class="animation-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ласты</font></font></h3>
+        <ul class="animation-group">
+    <li class="animation-item" data-animation="flip">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">кувырок</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="flipInX">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">flipInX</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="flipInY">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">переворот</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="flipOutX">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">flipOutX</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="flipOutY">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">flipOutY</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li></ul>
+      </section>
+    
+
+      <section class="lightspeed" id="lightspeed">
+        <h3 class="animation-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скорость света</font></font></h3>
+        <ul class="animation-group">
+    <li class="animation-item" data-animation="lightSpeedInRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">lightSpeedInRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="lightSpeedInLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">lightSpeedInLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="lightSpeedOutRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">lightSpeedOutRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="lightSpeedOutLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">lightSpeedOutLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li></ul>
+      </section>
+    
+
+      <section class="rotating_entrances" id="rotating_entrances">
+        <h3 class="animation-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Вращающиеся входы</font></font></h3>
+        <ul class="animation-group">
+    <li class="animation-item" data-animation="rotateIn">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rotateIn</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="rotateInDownLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rotateInDownLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="rotateInDownRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rotateInDownRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="rotateInUpLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rotateInUpLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="rotateInUpRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rotateInUpRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li></ul>
+      </section>
+    
+
+      <section class="rotating_exits" id="rotating_exits">
+        <h3 class="animation-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Вращающиеся выходы</font></font></h3>
+        <ul class="animation-group">
+    <li class="animation-item" data-animation="rotateOut">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rotateOut</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="rotateOutDownLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rotateOutDownLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="rotateOutDownRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rotateOutDownRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="rotateOutUpLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rotateOutUpLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="rotateOutUpRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">rotateOutUpRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li></ul>
+      </section>
+    
+
+      <section class="specials" id="specials">
+        <h3 class="animation-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Специальные</font></font></h3>
+        <ul class="animation-group">
+    <li class="animation-item" data-animation="hinge">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">петля</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="jackInTheBox">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Джек в коробке</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="rollIn">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">катиться</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="rollOut">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">посадочная дистанция</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li></ul>
+      </section>
+    
+
+      <section class="zooming_entrances" id="zooming_entrances">
+        <h3 class="animation-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Масштабирование входов</font></font></h3>
+        <ul class="animation-group">
+    <li class="animation-item" data-animation="zoomIn">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">приблизить</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="zoomInDown">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">zoomInDown</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="zoomInLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">zoomInLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="zoomInRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">zoomInRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="zoomInUp">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ZoomInUp</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li></ul>
+      </section>
+    
+
+      <section class="zooming_exits" id="zooming_exits">
+        <h3 class="animation-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Масштабирование выходов</font></font></h3>
+        <ul class="animation-group">
+    <li class="animation-item" data-animation="zoomOut">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">уменьшить</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="zoomOutDown">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">zoomOutDown</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="zoomOutLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">zoomOutLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="zoomOutRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">zoomOutRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="zoomOutUp">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">zoomOutUp</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li></ul>
+      </section>
+    
+
+      <section class="sliding_entrances" id="sliding_entrances">
+        <h3 class="animation-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Раздвижные входы</font></font></h3>
+        <ul class="animation-group">
+    <li class="animation-item" data-animation="slideInDown">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">slideInDown</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="slideInLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">slideInLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="slideInRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">slideInRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="slideInUp">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">slideInUp</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li></ul>
+      </section>
+    
+
+      <section class="sliding_exits" id="sliding_exits">
+        <h3 class="animation-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Раздвижные выходы</font></font></h3>
+        <ul class="animation-group">
+    <li class="animation-item" data-animation="slideOutDown">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">slideOutDown</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="slideOutLeft">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">slideOutLeft</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="slideOutRight">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">slideOutRight</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li>
+
+    <li class="animation-item" data-animation="slideOutUp">
+      <span class="animation-item--title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">slideOutUp</font></font></span>
+      <button class="copy-icon" type="button">
+        <span class="tooltip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скопировать имя класса в буфер обмена</font></font></span>
+      </button>
+    </li></ul>
+      </section>
+    
+      </section>
+
+      <footer class="intro-footer">
+        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+          Еще одна вещь от
+           </font></font><a href="https://daneden.me/" target="_blank" title="Даниэль Иден"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Даниэля Идена</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> и
+           </font></font><a href="https://animate.style/#contributors" title="Авторы"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">друзей</font></font></a>
+        </p>
+      </footer>
+    </article>
+
+    <main>
+      <header class="docs-header">
+        <div class="container">
+          <h2 class="docs-mainTitle">
+            <a href="https://animate.style/#documentation" title="Документация"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Документация</font></font></a>
+          </h2>
+        </div>
+      </header>
+
+      <article class="docs" id="documentation">
+        <span class="hamburger">
+          <svg width="23" height="15" viewBox="0 0 23 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line y1="1.5" x2="23" y2="1.5" stroke="#351C75" stroke-width="3"></line>
+            <line y1="7.5" x2="23" y2="7.5" stroke="#351C75" stroke-width="3"></line>
+            <line y1="13.5" x2="23" y2="13.5" stroke="#351C75" stroke-width="3"></line>
+          </svg>
+        </span>
+        <div class="container">
+          <div class="content">
+            
+      <section class="docSection-intro" id="intro">
+        <blockquote>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">В Animate.css v4 внесены некоторые критические </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">изменения</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , пожалуйста, ознакомьтесь с </font></font><a href="https://animate.style/#migration"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">руководством</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> по </font><a href="https://animate.style/#migration"><font style="vertical-align: inherit;">миграции</font></a><font style="vertical-align: inherit;"> перед обновлением с </font><font style="vertical-align: inherit;">версии v3.x </font><font style="vertical-align: inherit;">и ниже.</font></font></p>
+</blockquote>
+<p><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Animate.css</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - это библиотека готовых к использованию кросс-браузерных анимаций для использования в ваших веб-проектах. </font><font style="vertical-align: inherit;">Отлично подходит для выделения, домашних страниц, слайдеров и привлекающих внимание подсказок.</font></font></p>
+
+        <p class="edit-github"><a href="https://github.com/animate-css/animate.css/blob/main/docsSource/sections/00-intro.md" title="Отредактируйте это на GitHub"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Отредактируйте это на GitHub</font></font></a></p>
+      </section>
+    
+
+      <section class="docSection-usage" id="usage">
+        <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Установка и использование</font></font></h2>
+<h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Установка</font></font></h3>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Установить с помощью npm:</font></font></p>
+<pre class="  language-shell"><code class="  language-shell">$ <span class="token function">npm</span> <span class="token function">install</span> animate.css --save
+</code></pre>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">пряжей:</font></font></p>
+<pre class="  language-shell"><code class="  language-shell">$ <span class="token function">yarn</span> <span class="token function">add</span> animate.css
+</code></pre>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">или добавьте его прямо на свою веб-страницу с помощью CDN:</font></font></p>
+<pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span>
+    <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span>
+    <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css<span class="token punctuation">"</span></span>
+  <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Основное использование</font></font></h3>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">После установки Animate.css добавьте класс </font></font><code>animate__animated</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">к элементу вместе с любым </font></font><a href="https://animate.style/#attention_seekers"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">именем анимации</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> (не забудьте </font></font><code>animate__</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">префикс!):</font></font></p>
+<pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>animate__animated animate__bounce<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>An animated element<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Это оно! </font><font style="vertical-align: inherit;">У вас есть анимированный элемент CSS. </font><font style="vertical-align: inherit;">Супер!</font></font></p>
+<blockquote>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Анимации могут улучшить UX интерфейса, но имейте в виду, что они также могут мешать вашим пользователям! </font><font style="vertical-align: inherit;">Пожалуйста, прочтите </font><font style="vertical-align: inherit;">разделы с </font></font><a href="https://animate.style/#best-practices"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">лучшими практиками</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> и </font></font><a href="https://animate.style/#gotchas"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ошибками,</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> чтобы воплотить ваши веб-вещи в жизнь наилучшим образом.</font></font></p>
+</blockquote>
+<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">С помощью </font></font><code>@keyframes</code></h4>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Несмотря на то, что библиотека предоставляет вам несколько вспомогательных классов, таких как </font></font><code>animated</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">класс, для быстрого запуска, вы можете </font></font><code>keyframes</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">напрямую </font><font style="vertical-align: inherit;">использовать предоставленные анимации </font><font style="vertical-align: inherit;">. </font><font style="vertical-align: inherit;">Это обеспечивает гибкий способ использования Animate.css с вашими текущими проектами без необходимости рефакторинга HTML-кода.</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Пример:</font></font></p>
+<pre class=" language-css"><code class=" language-css"><span class="token selector">.my-element</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span>
+  <span class="token property">margin</span><span class="token punctuation">:</span> 0 0.5rem<span class="token punctuation">;</span>
+
+  <span class="token property">animation</span><span class="token punctuation">:</span> bounce<span class="token punctuation">;</span> <span class="token comment">/* referring directly to the animation's @keyframe declaration */</span>
+  <span class="token property">animation-duration</span><span class="token punctuation">:</span> 2s<span class="token punctuation">;</span> <span class="token comment">/* don't forget to set a duration! */</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Имейте в виду, что некоторые анимации зависят от </font></font><code>animation-timing</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">свойства, установленного в классе анимации. </font><font style="vertical-align: inherit;">Изменение или отказ от объявления может привести к неожиданным результатам.</font></font></p>
+<h4><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Настраиваемые свойства CSS (переменные CSS)</font></font></h4>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Начиная с версии 4 Animate.css использует настраиваемые свойства (также известные как переменные CSS) для определения продолжительности, задержки и итераций анимации. </font><font style="vertical-align: inherit;">Это делает Animate.css очень гибким и настраиваемым. </font><font style="vertical-align: inherit;">Нужно изменить продолжительность анимации? </font><font style="vertical-align: inherit;">Просто установите новое значение глобально или локально.</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Пример:</font></font></p>
+<pre class=" language-css"><code class=" language-css"><span class="token comment">/* This only changes this particular animation duration */</span>
+<span class="token selector">.animate__animated.animate__bounce</span> <span class="token punctuation">{</span>
+  <span class="token property">--animate-duration</span><span class="token punctuation">:</span> 2s<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* This changes all the animations globally */</span>
+<span class="token selector">:root</span> <span class="token punctuation">{</span>
+  <span class="token property">--animate-duration</span><span class="token punctuation">:</span> 800ms<span class="token punctuation">;</span>
+  <span class="token property">--animate-delay</span><span class="token punctuation">:</span> 0.9s<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Пользовательские свойства также позволяют легко изменять все ваши ограниченные по времени свойства анимации на лету. </font><font style="vertical-align: inherit;">Это означает, что у вас может быть эффект замедленной съемки или замедленной съемки с однострочным javascript:</font></font></p>
+<pre class=" language-javascript"><code class=" language-javascript"><span class="token comment">// All animations will take twice the time to accomplish</span>
+document<span class="token punctuation">.</span>documentElement<span class="token punctuation">.</span>style<span class="token punctuation">.</span><span class="token function">setProperty</span><span class="token punctuation">(</span><span class="token string">'--animate-duration'</span><span class="token punctuation">,</span> <span class="token string">'2s'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// All animations will take half the time to accomplish</span>
+document<span class="token punctuation">.</span>documentElement<span class="token punctuation">.</span>style<span class="token punctuation">.</span><span class="token function">setProperty</span><span class="token punctuation">(</span><span class="token string">'--animate-duration'</span><span class="token punctuation">,</span> <span class="token string">'.5s'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Несмотря на то, что пользовательские свойства не поддерживаются некоторыми устаревшими браузерами, Animate.css предоставляет подходящий запасной вариант, расширяя его поддержку для любого браузера, поддерживающего анимацию CSS.</font></font></p>
+
+        <p class="edit-github"><a href="https://github.com/animate-css/animate.css/blob/main/docsSource/sections/01-usage.md" title="Отредактируйте это на GitHub"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Отредактируйте это на GitHub</font></font></a></p>
+      </section>
+    
+
+      <section class="docSection-utilities" id="utilities">
+        <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Классы полезности</font></font></h2>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Animate.css поставляется с несколькими служебными классами, упрощающими его использование.</font></font></p>
+<h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Классы задержки</font></font></h3>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Вы можете добавить задержки непосредственно в атрибут class элемента, как показано ниже:</font></font></p>
+<pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>animate__animated animate__bounce animate__delay-2s<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Example<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Animate.css обеспечивает следующие задержки:</font></font></p>
+<table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Название класса</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Время задержки по умолчанию</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>animate__delay-2s</code></td>
+<td><code>2s</code></td>
+</tr>
+<tr>
+<td><code>animate__delay-3s</code></td>
+<td><code>3s</code></td>
+</tr>
+<tr>
+<td><code>animate__delay-4s</code></td>
+<td><code>4s</code></td>
+</tr>
+<tr>
+<td><code>animate__delay-5s</code></td>
+<td><code>5s</code></td>
+</tr>
+</tbody>
+</table>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Предусмотренные задержки от 1 до 5 секунд. </font><font style="vertical-align: inherit;">Вы можете настроить их, задав для </font></font><code>--animate-delay</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">свойства более длительную или более короткую продолжительность:</font></font></p>
+<pre class=" language-css"><code class=" language-css"><span class="token comment">/* All delay classes will take 2x longer to start */</span>
+<span class="token selector">:root</span> <span class="token punctuation">{</span>
+  <span class="token property">--animate-delay</span><span class="token punctuation">:</span> 2s<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* All delay classes will take half the time to start */</span>
+<span class="token selector">:root</span> <span class="token punctuation">{</span>
+  <span class="token property">--animate-delay</span><span class="token punctuation">:</span> 0.5s<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Медленные, медленные, быстрые и более быстрые классы</font></font></h3>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Вы можете контролировать скорость анимации, добавляя эти классы, как показано ниже:</font></font></p>
+<pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>animate__animated animate__bounce animate__faster<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Example<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Название класса</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Время скорости по умолчанию</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>animate__slow</code></td>
+<td><code>2s</code></td>
+</tr>
+<tr>
+<td><code>animate__slower</code></td>
+<td><code>3s</code></td>
+</tr>
+<tr>
+<td><code>animate__fast</code></td>
+<td><code>800ms</code></td>
+</tr>
+<tr>
+<td><code>animate__faster</code></td>
+<td><code>500ms</code></td>
+</tr>
+</tbody>
+</table>
+<p><font style="vertical-align: inherit;"></font><code>animate__animated</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Класс имеет скорость по умолчанию </font></font><code>1s</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">. </font><font style="vertical-align: inherit;">Вы также можете настроить продолжительность анимации через </font></font><code>--animate-duration</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">свойство, глобально или локально. </font><font style="vertical-align: inherit;">Это повлияет как на анимацию, так и на служебные классы. </font><font style="vertical-align: inherit;">Пример:</font></font></p>
+<pre class=" language-css"><code class=" language-css"><span class="token comment">/* All animations will take twice as long to finish */</span>
+<span class="token selector">:root</span> <span class="token punctuation">{</span>
+  <span class="token property">--animate-duration</span><span class="token punctuation">:</span> 2s<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/* Only this element will take half the time to finish */</span>
+<span class="token selector">.my-element</span> <span class="token punctuation">{</span>
+  <span class="token property">--animate-duration</span><span class="token punctuation">:</span> 0.5s<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Обратите внимание, что некоторые анимации имеют продолжительность менее 1 секунды. </font><font style="vertical-align: inherit;">Поскольку мы использовали </font></font><code>calc()</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">функцию </font><font style="vertical-align: inherit;">CSS </font><font style="vertical-align: inherit;">, установка продолжительности через </font></font><code>--animation-duration</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">свойство будет учитывать эти соотношения. </font><font style="vertical-align: inherit;">Итак, когда вы изменяете глобальную продолжительность, все анимации будут реагировать на это изменение!</font></font></p>
+<h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Повторение занятий</font></font></h3>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Вы можете контролировать количество итераций анимации, добавляя эти классы, как показано ниже:</font></font></p>
+<pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>animate__animated animate__bounce animate__repeat-2<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Example<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Имя класса</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Количество итераций по умолчанию</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>animate__repeat-1</code></td>
+<td><code>1</code></td>
+</tr>
+<tr>
+<td><code>animate__repeat-2</code></td>
+<td><code>2</code></td>
+</tr>
+<tr>
+<td><code>animate__repeat-3</code></td>
+<td><code>3</code></td>
+</tr>
+<tr>
+<td><code>animate__infinite</code></td>
+<td><code>infinite</code></td>
+</tr>
+</tbody>
+</table>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Как и в случае с классами задержки и скорости, </font></font><code>animate__repeat</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">класс основан на </font></font><code>--animate-repeat</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">свойстве и имеет количество итераций по умолчанию, равное </font></font><code>1</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">. </font><font style="vertical-align: inherit;">Вы можете настроить их, задав для </font></font><code>--animate-repeat</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">свойства большее или меньшее значение:</font></font></p>
+<pre class=" language-css"><code class=" language-css"><span class="token comment">/* The element will repeat the animation 2x
+   It's better to set this property locally and not globally or
+   you might end up with a messy situation */</span>
+<span class="token selector">.my-element</span> <span class="token punctuation">{</span>
+  <span class="token property">--animate-repeat</span><span class="token punctuation">:</span> 2<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Обратите внимание, что </font></font><code>animate__infinite</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">не используются какие-либо настраиваемые свойства, и изменения </font></font><code>--animate-repeat</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">не повлияют на него. </font><font style="vertical-align: inherit;">Не забудьте прочитать </font><font style="vertical-align: inherit;">раздел с </font></font><a href="https://animate.style/#best-practices"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">рекомендациями,</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> чтобы наилучшим образом использовать повторяющиеся анимации.</font></font></p>
+
+        <p class="edit-github"><a href="https://github.com/animate-css/animate.css/blob/main/docsSource/sections/02-utilities.md" title="Отредактируйте это на GitHub"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Отредактируйте это на GitHub</font></font></a></p>
+      </section>
+    
+
+      <section class="docSection-best-practices" id="best-practices">
+        <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Лучшие практики</font></font></h2>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Анимация может значительно улучшить UX интерфейса, но важно следовать некоторым рекомендациям, чтобы не переусердствовать и не ухудшить пользовательский опыт в ваших веб-вещах. </font><font style="vertical-align: inherit;">Следование следующим правилам должно обеспечить хорошее начало.</font></font></p>
+<h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Значимые анимации</font></font></h3>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Вам следует избегать анимации элемента только ради него. </font><font style="vertical-align: inherit;">Имейте в виду, что анимация должна прояснять намерение. </font><font style="vertical-align: inherit;">Такие анимации, как искатели внимания (отскок, вспышка, пульс и т. Д.), Должны использоваться для привлечения внимания пользователя к чему-то особенному в вашем интерфейсе, а не только как способ придать ему «яркости».</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Анимации входа и выхода должны использоваться для ориентации того, что происходит в интерфейсе, четко сигнализируя, что он переходит в новое состояние.</font></font></p>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Это не означает, что вам следует избегать добавления игривости в интерфейс, просто убедитесь, что анимация не мешает вашему пользователю и что на производительность страницы не влияет чрезмерное использование анимации.</font></font></p>
+<h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Не анимируйте большие элементы</font></font></h3>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Избегайте этого, поскольку это не принесет пользы пользователю и, вероятно, только вызовет путаницу. </font><font style="vertical-align: inherit;">Кроме того, велика вероятность того, что анимация будет бесполезной, что приведет к плохому UX.</font></font></p>
+<h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Не анимируйте корневые элементы</font></font></h3>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Анимация </font><font style="vertical-align: inherit;">тегов </font></font><code>&lt;html/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">или </font></font><code>&lt;body/&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">возможна, но этого следует избегать. </font><font style="vertical-align: inherit;">Были некоторые отчеты, указывающие на то, что это может вызвать некоторые странные ошибки браузера. </font><font style="vertical-align: inherit;">Кроме того, отказ от всей страницы вряд ли принесет пользу вашему UX. </font><font style="vertical-align: inherit;">Если вам действительно нужен такой эффект, оберните свою страницу элементом и анимируйте его, например:</font></font></p>
+<pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>main</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>animate__animated animate__fadeInLeft<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token comment">&lt;!-- Your code --&gt;</span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>main</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Следует избегать бесконечных анимаций</font></font></h3>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Несмотря на то, что Animate.css предоставляет служебные классы для повторения анимации, в том числе бесконечной, вам следует избегать бесконечных анимаций. </font><font style="vertical-align: inherit;">Это просто отвлечет ваших пользователей и может вызвать раздражение у многих из них. </font><font style="vertical-align: inherit;">Так что используйте его с умом!</font></font></p>
+<h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Помните начальное и конечное состояние ваших элементов</font></font></h3>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Все анимации Animate.css включают свойство CSS, называемое, </font></font><code>animation-fill-mode</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">которое управляет состояниями элемента до и после анимации. </font><font style="vertical-align: inherit;">Вы можете прочитать об этом </font></font><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">здесь</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . </font><font style="vertical-align: inherit;">По умолчанию Animate.css имеет значение </font></font><code>animation-fill-mode: both</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, но вы можете изменить его по своему </font><font style="vertical-align: inherit;">усмотрению </font><font style="vertical-align: inherit;">.</font></font></p>
+<h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Не отключайте </font></font><code>prefers-reduced-motion</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">медиа-запрос</font></font></h3>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Начиная с версии 3.7.0 Animate.css поддерживает </font></font><code>prefers-reduced-motion</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">медиа-запросы, которые отключают анимацию в зависимости от предпочтений ОС в отношении поддерживаемых браузеров (большинство современных браузеров поддерживают это). </font><font style="vertical-align: inherit;">Это </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">важная функция доступности,</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> и ее никогда не следует отключать! </font><font style="vertical-align: inherit;">Он встроен в браузеры, чтобы помочь людям с вестибулярными и судорожными расстройствами. </font><font style="vertical-align: inherit;">Вы можете прочитать об этом </font></font><a href="https://css-tricks.com/revisiting-prefers-reduced-motion-the-reduced-motion-media-query/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">здесь</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . </font><font style="vertical-align: inherit;">Если вашей веб-вещи нужна анимация для работы, предупредите пользователей, но не отключайте эту функцию. </font><font style="vertical-align: inherit;">Вы можете легко сделать это только с помощью CSS. </font><font style="vertical-align: inherit;">Вот простой пример:</font></font></p>
+<div class="cp_embed_wrapper"><iframe allowfullscreen="true" allowpaymentrequest="true" allowtransparency="true" class="cp_embed_iframe " frameborder="0" height="265" name="cp_embed_1" scrolling="no" src="./animate_files/oNjGGbw(1).html" style="width: 100%; overflow:hidden; display:block;" title="Предпочитает медиа-запрос с уменьшением движения" loading="lazy" id="cp_embed_oNjGGbw"></iframe></div>
+<script async="" src="./animate_files/ei.js.Без названия"></script>
+<h2 id="gotchas"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Попался</font></font></h2>
+<h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Вы не можете анимировать встроенные элементы</font></font></h3>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Несмотря на то, что некоторые браузеры могут анимировать встроенные элементы, это противоречит спецификациям CSS-анимации и не работает в некоторых браузерах или в конечном итоге перестает работать. </font><font style="vertical-align: inherit;">Всегда анимируйте элементы уровня блока или встроенного блока (контейнеры и дочерние элементы сетки и гибкости также являются элементами уровня блока). </font><font style="vertical-align: inherit;">Вы можете установить для элемента значение </font></font><code>display: inline-block</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">при анимации встроенного элемента.</font></font></p>
+<h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Переполнение</font></font></h3>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Большинство анимаций Animate.css перемещают элементы по экрану и могут создавать полосы прокрутки на вашем веб-сайте. </font><font style="vertical-align: inherit;">Этим можно управлять с помощью </font></font><code>overflow: hidden</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">собственности. </font><font style="vertical-align: inherit;">Нет рецепта, когда и где его использовать, но основная идея состоит в том, чтобы использовать его в родительском элементе, содержащем анимированный элемент. </font><font style="vertical-align: inherit;">Вам решать, когда и как его использовать, </font></font><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/overflow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">это руководство</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> поможет вам разобраться.</font></font></p>
+<h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Интервалы между повторами</font></font></h3>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">К сожалению, сейчас это невозможно с чистым CSS. </font><font style="vertical-align: inherit;">Для достижения этого результата необходимо использовать Javascript.</font></font></p>
+
+        <p class="edit-github"><a href="https://github.com/animate-css/animate.css/blob/main/docsSource/sections/03-best-practices.md" title="Отредактируйте это на GitHub"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Отредактируйте это на GitHub</font></font></a></p>
+      </section>
+    
+
+      <section class="docSection-javascript" id="javascript">
+        <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Использование с Javascript</font></font></h2>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Вы можете делать массу других вещей с помощью animate.css, когда объединяете его с Javascript. </font><font style="vertical-align: inherit;">Простой пример:</font></font></p>
+<pre class=" language-javascript"><code class=" language-javascript"><span class="token keyword">const</span> element <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'.my-element'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+element<span class="token punctuation">.</span>classList<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token string">'animate__animated'</span><span class="token punctuation">,</span> <span class="token string">'animate__bounceOutLeft'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Вы можете определить, когда заканчивается анимация:</font></font></p>
+<pre class=" language-javascript"><code class=" language-javascript"><span class="token keyword">const</span> element <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'.my-element'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+element<span class="token punctuation">.</span>classList<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token string">'animate__animated'</span><span class="token punctuation">,</span> <span class="token string">'animate__bounceOutLeft'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+element<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'animationend'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token comment">// do something</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">или изменить его продолжительность:</font></font></p>
+<pre class=" language-javascript"><code class=" language-javascript"><span class="token keyword">const</span> element <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'.my-element'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+element<span class="token punctuation">.</span>style<span class="token punctuation">.</span><span class="token function">setProperty</span><span class="token punctuation">(</span><span class="token string">'--animate-duration'</span><span class="token punctuation">,</span> <span class="token string">'0.5s'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Вы также можете использовать простую функцию для добавления классов анимации и их автоматического удаления:</font></font></p>
+<pre class=" language-javascript"><code class=" language-javascript"><span class="token keyword">const</span> animateCSS <span class="token operator">=</span> <span class="token punctuation">(</span>element<span class="token punctuation">,</span> animation<span class="token punctuation">,</span> prefix <span class="token operator">=</span> <span class="token string">'animate__'</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span>
+  <span class="token comment">// We create a Promise and return it</span>
+  <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">resolve<span class="token punctuation">,</span> reject</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> animationName <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>prefix<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>animation<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+    <span class="token keyword">const</span> node <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span>element<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    node<span class="token punctuation">.</span>classList<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>prefix<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">animated</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span> animationName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// When the animation ends, we clean the classes and resolve the Promise</span>
+    <span class="token keyword">function</span> <span class="token function">handleAnimationEnd</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      node<span class="token punctuation">.</span>classList<span class="token punctuation">.</span><span class="token function">remove</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>prefix<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">animated</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span> animationName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token function">resolve</span><span class="token punctuation">(</span><span class="token string">'Animation ended'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    node<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">'animationend'</span><span class="token punctuation">,</span> handleAnimationEnd<span class="token punctuation">,</span> <span class="token punctuation">{</span>once<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">И используйте это так:</font></font></p>
+<pre class=" language-javascript"><code class=" language-javascript"><span class="token function">animateCSS</span><span class="token punctuation">(</span><span class="token string">'.my-element'</span><span class="token punctuation">,</span> <span class="token string">'bounce'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// or</span>
+<span class="token function">animateCSS</span><span class="token punctuation">(</span><span class="token string">'.my-element'</span><span class="token punctuation">,</span> <span class="token string">'bounce'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">message</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token comment">// Do something after the animation</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Если вам было трудно понять предыдущую функцию, взгляните на </font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">const</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/classList"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">classList</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">стрелочные функции</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> и </font></font><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">промисы</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> .</font></font></p>
+
+        <p class="edit-github"><a href="https://github.com/animate-css/animate.css/blob/main/docsSource/sections/04-javascript.md" title="Отредактируйте это на GitHub"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Отредактируйте это на GitHub</font></font></a></p>
+      </section>
+    
+
+      <section class="docSection-migration" id="migration">
+        <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Миграция с v3.x и ниже</font></font></h2>
+<p>Animate.css v4 brought some improvements, improved animations, and new animations, which makes it worth upgrading. But it also comes with a breaking change: we have added prefix for all of the Animate.css classes - defaulting to <code>animate__</code> - so a direct migration is not possible.</p>
+<p>But fear not! Although the default build, <code>animate.min.css</code>, brings the <code>animate__</code> prefix we also provide the <code>animate.compat.css</code> file which brings no prefix at all, like the previous versions (3.x and under).</p>
+<p>If you're using a bundler, just update your import:</p>
+<p>from:</p>
+<pre class=" language-js"><code class=" language-js"><span class="token keyword">import</span> <span class="token string">'animate.min.css'</span><span class="token punctuation">;</span>
+</code></pre>
+<p>to</p>
+<pre class=" language-js"><code class=" language-js"><span class="token keyword">import</span> <span class="token string">'animate.compat.css'</span><span class="token punctuation">;</span>
+</code></pre>
+<p>Notice that depending on your project's configuration, this might change a bit.</p>
+<p>In case of using a CDN, just update the link on your HTML:</p>
+<p>from:</p>
+<pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span>
+    <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span>
+    <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css<span class="token punctuation">"</span></span>
+  <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<p>to</p>
+<pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span>
+    <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span>
+    <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css<span class="token punctuation">"</span></span>
+  <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+</code></pre>
+<p>In the case of a new project, it's highly recommended to use the default prefixed version as it'll make sure that you'll hardly have classes conflicting with your project. Besides, in later versions, we might decide to discontinue the <code>animate.compat.css</code> file.</p>
+
+        <p class="edit-github"><a href="https://github.com/animate-css/animate.css/blob/main/docsSource/sections/06-migration.md" title="Отредактируйте это на GitHub">Edit this on GitHub</a></p>
+      </section>
+    
+
+      <section class="docSection-custom-builds" id="custom-builds">
+        <h2>Custom Builds</h2>
+<p>Animate.css is powered by npm, postcss + postcss-preset-env, which means you can create custom builds pretty easily, using future CSS today.</p>
+<p>First of all, you’ll need Node and all other dependencies:</p>
+<pre class="  language-shell"><code class="  language-shell">$ <span class="token builtin class-name">cd</span> path/to/animate.css/
+$ <span class="token function">npm</span> <span class="token function">install</span>
+</code></pre>
+<p>Next, run <code>npm start</code> to compile your custom build. Three files will be generated:</p>
+<ul>
+<li><code>animate.css</code>: raw build, easy to read and without any optimization</li>
+<li><code>animate.min.css</code>: minified build ready for production</li>
+<li><code>animate.compat.css</code>: minified build ready for production <strong>without class prefix</strong>. This should only be used as an easy path for migrations.</li>
+</ul>
+<p>For example, if you'll only use some of the “attention seekers” animations, simply edit the <code>./source/animate.css</code> file, delete every <code>@import</code> and the ones you want to use.</p>
+<pre class=" language-css"><code class=" language-css"><span class="token atrule"><span class="token rule">@import</span> <span class="token string">'attention_seekers/bounce.css'</span><span class="token punctuation">;</span></span>
+<span class="token atrule"><span class="token rule">@import</span> <span class="token string">'attention_seekers/flash.css'</span><span class="token punctuation">;</span></span>
+<span class="token atrule"><span class="token rule">@import</span> <span class="token string">'attention_seekers/pulse.css'</span><span class="token punctuation">;</span></span>
+<span class="token atrule"><span class="token rule">@import</span> <span class="token string">'attention_seekers/rubberBand.css'</span><span class="token punctuation">;</span></span>
+<span class="token atrule"><span class="token rule">@import</span> <span class="token string">'attention_seekers/shake.css'</span><span class="token punctuation">;</span></span>
+<span class="token atrule"><span class="token rule">@import</span> <span class="token string">'attention_seekers/headShake.css'</span><span class="token punctuation">;</span></span>
+<span class="token atrule"><span class="token rule">@import</span> <span class="token string">'attention_seekers/swing.css'</span><span class="token punctuation">;</span></span>
+<span class="token atrule"><span class="token rule">@import</span> <span class="token string">'attention_seekers/tada.css'</span><span class="token punctuation">;</span></span>
+<span class="token atrule"><span class="token rule">@import</span> <span class="token string">'attention_seekers/wobble.css'</span><span class="token punctuation">;</span></span>
+<span class="token atrule"><span class="token rule">@import</span> <span class="token string">'attention_seekers/jello.css'</span><span class="token punctuation">;</span></span>
+<span class="token atrule"><span class="token rule">@import</span> <span class="token string">'attention_seekers/heartBeat.css'</span><span class="token punctuation">;</span></span>
+</code></pre>
+<p>Now, just run <code>npm start</code> and your highly optimized build will be generated at the root of the project.</p>
+<h3>Changing the default prefix</h3>
+<p>It's pretty straight forward to change animate's prefix on your custom build. Change the <code>animateConfig</code>'s <code>prefix</code> property in the <code>package.json</code> file and rebuild the library with <code>npm start</code>:</p>
+<pre class="  language-json"><code class="  language-json"><span class="token comment">/* on Animate.css package.json */</span>
+<span class="token property">"animateConfig"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token property">"prefix"</span><span class="token operator">:</span> <span class="token string">"myCustomPrefix__"</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre>
+<p>then:</p>
+<pre class="  language-shell"><code class="  language-shell">$ <span class="token function">npm</span> start
+</code></pre>
+<p>Easy peasy!</p>
+
+        <p class="edit-github"><a href="https://github.com/animate-css/animate.css/blob/main/docsSource/sections/07-custom-builds.md" title="Отредактируйте это на GitHub">Edit this on GitHub</a></p>
+      </section>
+    
+
+      <section class="docSection-accessibility" id="accessibility">
+        <h2>Accessibility</h2>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Animate.css поддерживает </font></font><a href="https://webkit.org/blog/7551/responsive-design-for-motion/"><code>prefers-reduced-motion</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">медиа-запросы,</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> поэтому пользователи с чувствительностью к движению могут отказаться от анимации. </font><font style="vertical-align: inherit;">На поддерживаемых платформах (в настоящее время все основные браузеры и ОС, включая мобильные) пользователи могут выбрать «уменьшить движение» в настройках своей операционной системы, и это отключит для них переходы CSS без каких-либо дополнительных действий.</font></font></p>
+
+        <p class="edit-github"><a href="https://github.com/animate-css/animate.css/blob/main/docsSource/sections/08-accessibility.md" title="Отредактируйте это на GitHub"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Отредактируйте это на GitHub</font></font></a></p>
+      </section>
+    
+
+      <section class="docSection-contributors" id="contributors">
+        <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Основная команда</font></font></h2>
+<table>
+<thead>
+<tr>
+<th><img src="./animate_files/439365" alt=""></th>
+<th><img src="./animate_files/5007208" alt=""></th>
+<th><img src="./animate_files/15052701" alt=""></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/daneden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Даниэль Иден</font></font></a></td>
+<td><a href="https://github.com/eltonmesquita"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Элтон Мескита</font></font></a></td>
+<td><a href="https://github.com/WarenGonzaga"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Варен Гонзага</font></font></a></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Создатель Animate.css</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Сопровождающий</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Основной участник</font></font></td>
+</tr>
+</tbody>
+</table>
+
+        <p class="edit-github"><a href="https://github.com/animate-css/animate.css/blob/main/docsSource/sections/09-contributors.md" title="Отредактируйте это на GitHub"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Отредактируйте это на GitHub</font></font></a></p>
+      </section>
+    
+
+      <section class="docSection-license-contributing" id="license-contributing">
+        <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Лицензия и участие</font></font></h2>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Animate.css находится под лицензией MIT. </font><font style="vertical-align: inherit;">( </font></font><a href="https://opensource.org/licenses/MIT"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://opensource.org/licenses/MIT</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )</font></font></p>
+<h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Содействие</font></font></h3>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Здесь можно использовать запросы на вытягивание. </font><font style="vertical-align: inherit;">У нас есть только два правила для отправки запроса на перенос: соответствие соглашению об именовании (camelCase, категоризированный [затухание, отскок и т. Д.]) И давайте посмотрим на </font></font><a href="https://codepen.io/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ручку</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> демонстрацию представленных анимаций </font><font style="vertical-align: inherit;">. </font><font style="vertical-align: inherit;">Это </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">последнее очень важно</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> .</font></font></p>
+<h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Кодекс поведения</font></font></h3>
+<p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Этот проект и все, кто в нем участвует, регулируются </font></font><a href="https://github.com/animate-css/animate.css/blob/main/CODE_OF_CONDUCT.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Кодексом поведения авторов Соглашения</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . </font><font style="vertical-align: inherit;">Участвуя, вы должны соблюдать этот кодекс. </font><font style="vertical-align: inherit;">Пожалуйста, сообщите о неприемлемом поведении по </font></font><a href="mailto:callmeelton@gmail.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">адресу callmeelton@gmail.com</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> .</font></font></p>
+
+        <p class="edit-github"><a href="https://github.com/animate-css/animate.css/blob/main/docsSource/sections/09-license-contributing.md" title="Отредактируйте это на GitHub"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Отредактируйте это на GitHub</font></font></a></p>
+      </section>
+    
+          </div>
+          <aside class="sidebar">
+            <div class="meta">
+              <a href="https://github.com/daneden/animate.css" target="_blank" class="icon-github">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18" width="18" height="18">
+                  <path fill="#000000" d="M16.793 4.703a8.96 8.96 0 00-3.276-3.276A8.803 8.803 0 009 .22a8.804 8.804 0 00-4.518 1.207 8.96 8.96 0 00-3.275 3.276A8.803 8.803 0 000 9.22c0 1.96.572 3.724 1.717 5.29 1.144 1.567 2.623 2.651 4.435 3.252.211.04.367.012.469-.081a.458.458 0 00.152-.352l-.006-.633c-.004-.398-.006-.746-.006-1.042l-.27.046a3.434 3.434 0 01-.65.041 4.958 4.958 0 01-.814-.082 1.82 1.82 0 01-.785-.351 1.487 1.487 0 01-.516-.72l-.117-.27a2.93 2.93 0 00-.369-.598c-.168-.219-.338-.367-.51-.445l-.082-.059a.865.865 0 01-.152-.14.643.643 0 01-.105-.165c-.024-.054-.004-.1.058-.135.063-.035.176-.052.34-.052l.234.035c.157.031.35.125.58.281.23.156.42.36.569.61.18.32.396.564.65.732.254.168.51.252.768.252.257 0 .48-.02.667-.059a2.33 2.33 0 00.528-.175c.07-.524.262-.927.574-1.208a8.026 8.026 0 01-1.201-.21 4.779 4.779 0 01-1.102-.458 3.153 3.153 0 01-.943-.785c-.25-.312-.455-.723-.615-1.23-.16-.508-.24-1.094-.24-1.758 0-.946.308-1.75.925-2.414-.289-.711-.261-1.508.082-2.39.227-.071.563-.018 1.008.157.446.176.772.327.979.452.207.125.373.23.498.316A8.32 8.32 0 019 4.568c.773 0 1.523.101 2.25.304l.445-.281c.305-.188.664-.36 1.078-.516.414-.156.73-.199.95-.129.351.883.382 1.68.093 2.39.617.665.926 1.47.926 2.415 0 .664-.08 1.252-.24 1.764-.16.511-.367.921-.62 1.23-.255.309-.572.569-.95.78-.38.21-.747.362-1.102.456a8.013 8.013 0 01-1.201.212c.406.351.61.906.61 1.664v2.472c0 .14.048.258.146.351.097.094.252.121.463.082 1.812-.601 3.29-1.685 4.435-3.252C17.427 12.944 18 11.18 18 9.22a8.81 8.81 0 00-1.207-4.517z"></path>
+                </svg>
+              </a>
+              <span class="animate-version"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">v4.1.1</font></font></span>
+            </div>
+          <ul class="docs-index">
+
+  <li class="docs-indexItem"><a href="https://animate.style/#usage" title="Установка и использование"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Установка и использование</font></font></a></li>
+
+
+  <li class="docs-indexItem"><a href="https://animate.style/#utilities" title="Классы полезности"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Классы полезности</font></font></a></li>
+
+
+  <li class="docs-indexItem"><a href="https://animate.style/#best-practices" title="Лучшие практики"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Лучшие практики</font></font></a></li>
+
+
+  <li class="docs-indexItem"><a href="https://animate.style/#javascript" title="Использование с Javascript"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Использование с Javascript</font></font></a></li>
+
+
+  <li class="docs-indexItem"><a href="https://animate.style/#migration" title="Миграция с v3.x и ниже"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Миграция с v3.x и ниже</font></font></a></li>
+
+
+  <li class="docs-indexItem"><a href="https://animate.style/#custom-builds" title="Пользовательские сборки"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Пользовательские сборки</font></font></a></li>
+
+
+  <li class="docs-indexItem"><a href="https://animate.style/#accessibility" title="Доступность"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Доступность</font></font></a></li>
+
+
+  <li class="docs-indexItem"><a href="https://animate.style/#contributors" title="Основная команда"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Основная команда</font></font></a></li>
+
+
+  <li class="docs-indexItem"><a href="https://animate.style/#license-contributing" title="Лицензия и участие"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Лицензия и участие</font></font></a></li>
+</ul></aside>
+        </div>
+      </article>
+    </main>
+
+    <footer class="main-footer">
+      <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+        Animate.css - это библиотека, лицензированная MIT. </font><font style="vertical-align: inherit;">Вы можете использовать его свободно, соблюдая условия, включенные в </font></font><a href="https://github.com/daneden/animate.css/blob/main/LICENSE" title="лицензия"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">файл лицензии.
+      </font></font></a></p><a href="https://github.com/daneden/animate.css/blob/main/LICENSE" title="лицензия">
+    </a></footer><a href="https://github.com/daneden/animate.css/blob/main/LICENSE" title="лицензия">
+
+    </a><aside class="motionless__banner"><a href="https://github.com/daneden/animate.css/blob/main/LICENSE" title="лицензия">
+      </a><p class="motionless__paragraph"><a href="https://github.com/daneden/animate.css/blob/main/LICENSE" title="лицензия">
+        <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Привет! </font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Похоже, у вас отключена анимация в вашей ОС, отключив Animate.css. </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+        Animate.css поддерживает
+         </font></font></a><a title="предпочитает медиа-функцию CSS с уменьшенным движением на MDN" target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+          медиа-функцию CSS с уменьшенным движением</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . </font><font style="vertical-align: inherit;">Вы можете прочитать об этом
+        </font></font><a title="Двигайся!  Или, может быть, нет, если пользователь предпочитает уменьшенное движение!  в Google Developers" target="_blank" rel="noopener noreferrer" href="https://developers.google.com/web/updates/2019/03/prefers-reduced-motion"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
+          здесь</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> .
+      </font></font></p>
+    </aside>
+    <script type="module" src="./animate_files/main.mjs"></script>
+    <script src="./animate_files/prism.min.js.Без названия"></script>
+    <script src="./animate_files/prism-autoloader.min.js.Без названия"></script><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="./animate_files/translate_24dp.png" width="20" height="20" alt="Google Переводчик"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Исходный текст</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Предложить лучший вариант перевода</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div>
+  
+
+<div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
